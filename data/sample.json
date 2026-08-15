@@ -23,6 +23,19 @@
     "followers": 8420,
     "connections": 4112,
     "photo": "./public/wren-calder.jpg",
+    "profilePicture": {
+      "url": "./public/wren-calder.jpg",
+      "sizes": [
+        { "url": "./public/wren-calder.jpg", "width": 800, "height": 800 }
+      ]
+    },
+    "coverPicture": {
+      "url": "./public/wren-calder-cover.jpg",
+      "sizes": [
+        { "url": "./public/wren-calder-cover.jpg", "width": 1600, "height": 900 }
+      ]
+    },
+    "banner": "./public/wren-calder-cover.jpg",
     "profileUrl": "https://www.example.com/in/wren-calder",
     "about": "I started Ashgrove after a harvest where we sold wine we did not actually have. Independent wineries are asked to run like consumer brands and like manufacturers at the same time, usually with a cellar team of three. We build the system of record for what is in tank, in barrel, and on the dock, so a sales promise matches a physical bottle. I spend most weeks in cellars, not on stages."
   },
