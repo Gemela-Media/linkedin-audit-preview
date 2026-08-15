@@ -1,0 +1,1099 @@
+{
+  "meta": {
+    "sample": true,
+    "round": 1,
+    "windowLabel": "Last 12 months",
+    "windowStart": "2025-08-18",
+    "windowEnd": "2026-08-16",
+    "generatedAt": "2026-08-15",
+    "originalPostsOnly": true,
+    "excluded": [
+      "quote posts",
+      "reposts"
+    ],
+    "rankedBy": "reactions"
+  },
+  "prospect": {
+    "name": "Wren Calder",
+    "firstName": "Wren",
+    "headline": "Founder & CEO at Ashgrove. Inventory software for independent wineries.",
+    "role": "Founder & CEO",
+    "company": "Ashgrove",
+    "location": "Hudson, NY",
+    "followers": 8420,
+    "connections": 4112,
+    "photo": "./public/wren-calder.jpg",
+    "profileUrl": "https://www.example.com/in/wren-calder",
+    "about": "I started Ashgrove after a harvest where we sold wine we did not actually have. Independent wineries are asked to run like consumer brands and like manufacturers at the same time, usually with a cellar team of three. We build the system of record for what is in tank, in barrel, and on the dock, so a sales promise matches a physical bottle. I spend most weeks in cellars, not on stages."
+  },
+  "glance": {
+    "totalPosts": 47,
+    "averagePostsPerWeek": 0.9,
+    "longestGapDays": 34,
+    "medianReactions": 42,
+    "p75Reactions": 89,
+    "medianComments": 8,
+    "p75Comments": 18,
+    "medianShares": 2,
+    "p75Shares": 6,
+    "formatMix": {
+      "text": 21,
+      "image": 13,
+      "carousel": 8,
+      "video": 3,
+      "document": 2,
+      "article": 0
+    }
+  },
+  "weekly": [
+    {
+      "week": "2025-W34",
+      "start": "2025-08-18",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2025-W35",
+      "start": "2025-08-25",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2025-W36",
+      "start": "2025-09-01",
+      "postCount": 1,
+      "medianReactions": 9,
+      "medianComments": 2,
+      "medianShares": 0
+    },
+    {
+      "week": "2025-W37",
+      "start": "2025-09-08",
+      "postCount": 2,
+      "medianReactions": 7.5,
+      "medianComments": 1,
+      "medianShares": 0.5
+    },
+    {
+      "week": "2025-W38",
+      "start": "2025-09-15",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2025-W39",
+      "start": "2025-09-22",
+      "postCount": 1,
+      "medianReactions": 12,
+      "medianComments": 2,
+      "medianShares": 1
+    },
+    {
+      "week": "2025-W40",
+      "start": "2025-09-29",
+      "postCount": 2,
+      "medianReactions": 9,
+      "medianComments": 1.5,
+      "medianShares": 0.5
+    },
+    {
+      "week": "2025-W41",
+      "start": "2025-10-06",
+      "postCount": 1,
+      "medianReactions": 15,
+      "medianComments": 3,
+      "medianShares": 1
+    },
+    {
+      "week": "2025-W42",
+      "start": "2025-10-13",
+      "postCount": 1,
+      "medianReactions": 16,
+      "medianComments": 3,
+      "medianShares": 1
+    },
+    {
+      "week": "2025-W43",
+      "start": "2025-10-20",
+      "postCount": 1,
+      "medianReactions": 18,
+      "medianComments": 4,
+      "medianShares": 1
+    },
+    {
+      "week": "2025-W44",
+      "start": "2025-10-27",
+      "postCount": 1,
+      "medianReactions": 19,
+      "medianComments": 4,
+      "medianShares": 1
+    },
+    {
+      "week": "2025-W45",
+      "start": "2025-11-03",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2025-W46",
+      "start": "2025-11-10",
+      "postCount": 1,
+      "medianReactions": 21,
+      "medianComments": 5,
+      "medianShares": 1
+    },
+    {
+      "week": "2025-W47",
+      "start": "2025-11-17",
+      "postCount": 2,
+      "medianReactions": 14.5,
+      "medianComments": 3,
+      "medianShares": 0.5
+    },
+    {
+      "week": "2025-W48",
+      "start": "2025-11-24",
+      "postCount": 1,
+      "medianReactions": 25,
+      "medianComments": 5,
+      "medianShares": 2
+    },
+    {
+      "week": "2025-W49",
+      "start": "2025-12-01",
+      "postCount": 2,
+      "medianReactions": 17.5,
+      "medianComments": 3.5,
+      "medianShares": 1
+    },
+    {
+      "week": "2025-W50",
+      "start": "2025-12-08",
+      "postCount": 1,
+      "medianReactions": 29,
+      "medianComments": 6,
+      "medianShares": 2
+    },
+    {
+      "week": "2025-W51",
+      "start": "2025-12-15",
+      "postCount": 1,
+      "medianReactions": 31,
+      "medianComments": 7,
+      "medianShares": 2
+    },
+    {
+      "week": "2025-W52",
+      "start": "2025-12-22",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2026-W01",
+      "start": "2025-12-29",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2026-W02",
+      "start": "2026-01-05",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2026-W03",
+      "start": "2026-01-12",
+      "postCount": 1,
+      "medianReactions": 33,
+      "medianComments": 7,
+      "medianShares": 2
+    },
+    {
+      "week": "2026-W04",
+      "start": "2026-01-19",
+      "postCount": 1,
+      "medianReactions": 35,
+      "medianComments": 7,
+      "medianShares": 2
+    },
+    {
+      "week": "2026-W05",
+      "start": "2026-01-26",
+      "postCount": 1,
+      "medianReactions": 251,
+      "medianComments": 46,
+      "medianShares": 16
+    },
+    {
+      "week": "2026-W06",
+      "start": "2026-02-02",
+      "postCount": 1,
+      "medianReactions": 37,
+      "medianComments": 8,
+      "medianShares": 2
+    },
+    {
+      "week": "2026-W07",
+      "start": "2026-02-09",
+      "postCount": 2,
+      "medianReactions": 23,
+      "medianComments": 4.5,
+      "medianShares": 1
+    },
+    {
+      "week": "2026-W08",
+      "start": "2026-02-16",
+      "postCount": 1,
+      "medianReactions": 42,
+      "medianComments": 8,
+      "medianShares": 2
+    },
+    {
+      "week": "2026-W09",
+      "start": "2026-02-23",
+      "postCount": 1,
+      "medianReactions": 44,
+      "medianComments": 9,
+      "medianShares": 3
+    },
+    {
+      "week": "2026-W10",
+      "start": "2026-03-02",
+      "postCount": 1,
+      "medianReactions": 47,
+      "medianComments": 9,
+      "medianShares": 3
+    },
+    {
+      "week": "2026-W11",
+      "start": "2026-03-09",
+      "postCount": 1,
+      "medianReactions": 312,
+      "medianComments": 61,
+      "medianShares": 23
+    },
+    {
+      "week": "2026-W12",
+      "start": "2026-03-16",
+      "postCount": 1,
+      "medianReactions": 50,
+      "medianComments": 10,
+      "medianShares": 3
+    },
+    {
+      "week": "2026-W13",
+      "start": "2026-03-23",
+      "postCount": 1,
+      "medianReactions": 54,
+      "medianComments": 11,
+      "medianShares": 3
+    },
+    {
+      "week": "2026-W14",
+      "start": "2026-03-30",
+      "postCount": 1,
+      "medianReactions": 58,
+      "medianComments": 12,
+      "medianShares": 4
+    },
+    {
+      "week": "2026-W15",
+      "start": "2026-04-06",
+      "postCount": 1,
+      "medianReactions": 63,
+      "medianComments": 13,
+      "medianShares": 4
+    },
+    {
+      "week": "2026-W16",
+      "start": "2026-04-13",
+      "postCount": 1,
+      "medianReactions": 68,
+      "medianComments": 14,
+      "medianShares": 4
+    },
+    {
+      "week": "2026-W17",
+      "start": "2026-04-20",
+      "postCount": 2,
+      "medianReactions": 136,
+      "medianComments": 26.5,
+      "medianShares": 8.5
+    },
+    {
+      "week": "2026-W18",
+      "start": "2026-04-27",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2026-W19",
+      "start": "2026-05-04",
+      "postCount": 2,
+      "medianReactions": 183.5,
+      "medianComments": 34,
+      "medianShares": 12
+    },
+    {
+      "week": "2026-W20",
+      "start": "2026-05-11",
+      "postCount": 1,
+      "medianReactions": 83,
+      "medianComments": 17,
+      "medianShares": 5
+    },
+    {
+      "week": "2026-W21",
+      "start": "2026-05-18",
+      "postCount": 1,
+      "medianReactions": 86,
+      "medianComments": 18,
+      "medianShares": 6
+    },
+    {
+      "week": "2026-W22",
+      "start": "2026-05-25",
+      "postCount": 1,
+      "medianReactions": 92,
+      "medianComments": 18,
+      "medianShares": 6
+    },
+    {
+      "week": "2026-W23",
+      "start": "2026-06-01",
+      "postCount": 1,
+      "medianReactions": 98,
+      "medianComments": 20,
+      "medianShares": 7
+    },
+    {
+      "week": "2026-W24",
+      "start": "2026-06-08",
+      "postCount": 1,
+      "medianReactions": 110,
+      "medianComments": 22,
+      "medianShares": 7
+    },
+    {
+      "week": "2026-W25",
+      "start": "2026-06-15",
+      "postCount": 1,
+      "medianReactions": 224,
+      "medianComments": 41,
+      "medianShares": 14
+    },
+    {
+      "week": "2026-W26",
+      "start": "2026-06-22",
+      "postCount": 1,
+      "medianReactions": 124,
+      "medianComments": 24,
+      "medianShares": 8
+    },
+    {
+      "week": "2026-W27",
+      "start": "2026-06-29",
+      "postCount": 1,
+      "medianReactions": 141,
+      "medianComments": 27,
+      "medianShares": 9
+    },
+    {
+      "week": "2026-W28",
+      "start": "2026-07-06",
+      "postCount": 1,
+      "medianReactions": 158,
+      "medianComments": 31,
+      "medianShares": 10
+    },
+    {
+      "week": "2026-W29",
+      "start": "2026-07-13",
+      "postCount": 1,
+      "medianReactions": 176,
+      "medianComments": 34,
+      "medianShares": 11
+    },
+    {
+      "week": "2026-W30",
+      "start": "2026-07-20",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2026-W31",
+      "start": "2026-07-27",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2026-W32",
+      "start": "2026-08-03",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    },
+    {
+      "week": "2026-W33",
+      "start": "2026-08-10",
+      "postCount": 0,
+      "medianReactions": null,
+      "medianComments": null,
+      "medianShares": null
+    }
+  ],
+  "topFive": [
+    {
+      "id": "p-2026-03-11",
+      "hook": "We lost a $40k order because the barrel count in the spreadsheet was a week old.",
+      "type": "text",
+      "date": "2026-03-11",
+      "reactions": 312,
+      "comments": 61,
+      "shares": 23,
+      "url": "https://www.example.com/posts/wren-calder/2026-03-11"
+    },
+    {
+      "id": "p-2026-05-06",
+      "hook": "This is the cellar wall before Ashgrove. I still get angry looking at it.",
+      "type": "image",
+      "date": "2026-05-06",
+      "reactions": 287,
+      "comments": 52,
+      "shares": 19,
+      "url": "https://www.example.com/posts/wren-calder/2026-05-06"
+    },
+    {
+      "id": "p-2026-01-28",
+      "hook": "7 inventory mistakes independent wineries make before their second harvest.",
+      "type": "carousel",
+      "date": "2026-01-28",
+      "reactions": 251,
+      "comments": 46,
+      "shares": 16,
+      "url": "https://www.example.com/posts/wren-calder/2026-01-28"
+    },
+    {
+      "id": "p-2026-06-17",
+      "hook": "Distributors do not care about your vintage story if you cannot tell them what is on hand by SKU.",
+      "type": "text",
+      "date": "2026-06-17",
+      "reactions": 224,
+      "comments": 41,
+      "shares": 14,
+      "url": "https://www.example.com/posts/wren-calder/2026-06-17"
+    },
+    {
+      "id": "p-2026-04-22",
+      "hook": "A 12-minute cycle count that used to take our team a full Saturday.",
+      "type": "video",
+      "date": "2026-04-22",
+      "reactions": 198,
+      "comments": 38,
+      "shares": 12,
+      "url": "https://www.example.com/posts/wren-calder/2026-04-22"
+    }
+  ],
+  "bottomFive": [
+    {
+      "id": "p-2025-09-09",
+      "hook": "Excited to share we were mentioned in a regional trade roundup.",
+      "type": "text",
+      "date": "2025-09-09",
+      "reactions": 4,
+      "comments": 0,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-09-09"
+    },
+    {
+      "id": "p-2025-10-02",
+      "hook": "Q3 product notes, for anyone who asked.",
+      "type": "document",
+      "date": "2025-10-02",
+      "reactions": 5,
+      "comments": 0,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-10-02"
+    },
+    {
+      "id": "p-2025-11-18",
+      "hook": "Booth photo from a Tuesday afternoon at a regional trade show.",
+      "type": "image",
+      "date": "2025-11-18",
+      "reactions": 6,
+      "comments": 1,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-11-18"
+    },
+    {
+      "id": "p-2026-02-11",
+      "hook": "Hiring a customer success lead. Job post in the comments.",
+      "type": "text",
+      "date": "2026-02-11",
+      "reactions": 7,
+      "comments": 1,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2026-02-11"
+    },
+    {
+      "id": "p-2025-12-04",
+      "hook": "Meet the team. Five slides of headshots and hobbies.",
+      "type": "carousel",
+      "date": "2025-12-04",
+      "reactions": 8,
+      "comments": 1,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-12-04"
+    }
+  ],
+  "profileHealth": {
+    "items": [
+      {
+        "id": "photo",
+        "label": "Photo",
+        "present": true,
+        "note": "Clear headshot. Face is readable at thumbnail size."
+      },
+      {
+        "id": "banner",
+        "label": "Banner",
+        "present": true,
+        "note": "Custom banner with the Ashgrove wordmark and a cellar photo."
+      },
+      {
+        "id": "headline",
+        "label": "Headline",
+        "present": true,
+        "note": "Role, company, and category are all in the line."
+      },
+      {
+        "id": "about",
+        "label": "About",
+        "present": true,
+        "note": "Four sentences. Origin story plus who it is for."
+      },
+      {
+        "id": "featured",
+        "label": "Featured",
+        "present": true,
+        "note": "Three items pinned: a podcast, a launch carousel, a company page."
+      },
+      {
+        "id": "experience",
+        "label": "Experience alignment",
+        "present": false,
+        "note": "Ashgrove is listed. The role still reads as if the prior cellar job is current, and the company page is not linked."
+      },
+      {
+        "id": "cta",
+        "label": "CTA / link",
+        "present": false,
+        "note": "No booking link in Featured, About, or the headline. Website field is empty."
+      },
+      {
+        "id": "creator",
+        "label": "Creator mode / hashtags",
+        "present": true,
+        "note": "Creator mode is on. Hashtags: #winemaking, #inventory, #startups."
+      }
+    ],
+    "aeo": {
+      "headline": "Findable on company and category, not on the job to be done. \"Ashgrove\" and \"independent wineries\" will match a search. \"Inventory software\" is close. A buyer asking an answer engine for \"winery inventory management\" or \"cellar operations software\" has to infer the rest. The line is clear. It is not yet the phrase a cellar manager would type.",
+      "about": "The About is a story, which is useful, and it names the buyer (independent wineries, cellar teams of three). It never says the product category in the language operators search: bonded inventory, case-goods, depletion, lot tracking, DTC vs wholesale counts. Clever origin. Thin for answer engines."
+    },
+    "featuredVsPerformed": "Featured is company news: an Operations Hour podcast clip, the Ashgrove 2.0 launch carousel, and the company page. What actually performed is operator writing. The top posts are a lost-order story, a cellar-wall photo, a mistakes carousel, and a blunt line about distributors and on-hand by SKU. The pin board is a press kit. The feed already knows the other thing works."
+  },
+  "posts": [
+    {
+      "id": "p-2025-09-05",
+      "hook": "The first year we ran harvest on a shared Google Sheet. Never again.",
+      "type": "text",
+      "date": "2025-09-05",
+      "reactions": 9,
+      "comments": 2,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-09-05"
+    },
+    {
+      "id": "p-2025-09-09",
+      "hook": "Excited to share we were mentioned in a regional trade roundup.",
+      "type": "text",
+      "date": "2025-09-09",
+      "reactions": 4,
+      "comments": 0,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-09-09"
+    },
+    {
+      "id": "p-2025-09-14",
+      "hook": "If your cellar card and your sales sheet disagree, the sales sheet is lying.",
+      "type": "text",
+      "date": "2025-09-14",
+      "reactions": 11,
+      "comments": 2,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-09-14"
+    },
+    {
+      "id": "p-2025-09-22",
+      "hook": "What I wish I knew before we sold into three new states in one quarter.",
+      "type": "text",
+      "date": "2025-09-22",
+      "reactions": 12,
+      "comments": 2,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-09-22"
+    },
+    {
+      "id": "p-2025-09-30",
+      "hook": "A buyer asked for a lot code at 4pm on a Friday. We had it in 40 seconds.",
+      "type": "text",
+      "date": "2025-09-30",
+      "reactions": 13,
+      "comments": 3,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-09-30"
+    },
+    {
+      "id": "p-2025-10-02",
+      "hook": "Q3 product notes, for anyone who asked.",
+      "type": "document",
+      "date": "2025-10-02",
+      "reactions": 5,
+      "comments": 0,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-10-02"
+    },
+    {
+      "id": "p-2025-10-09",
+      "hook": "Stop photographing the tasting room. Photograph the problem you just fixed.",
+      "type": "text",
+      "date": "2025-10-09",
+      "reactions": 15,
+      "comments": 3,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-10-09"
+    },
+    {
+      "id": "p-2025-10-17",
+      "hook": "Why we price implementation in days, not seats.",
+      "type": "text",
+      "date": "2025-10-17",
+      "reactions": 16,
+      "comments": 3,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-10-17"
+    },
+    {
+      "id": "p-2025-10-25",
+      "hook": "Independent wineries do not have a warehouse team. The software has to be the warehouse team.",
+      "type": "text",
+      "date": "2025-10-25",
+      "reactions": 18,
+      "comments": 4,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-10-25"
+    },
+    {
+      "id": "p-2025-11-02",
+      "hook": "The day I stopped calling it inventory and started calling it promises we already made.",
+      "type": "text",
+      "date": "2025-11-02",
+      "reactions": 19,
+      "comments": 4,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-11-02"
+    },
+    {
+      "id": "p-2025-11-10",
+      "hook": "A short note on depletion reports, and why yours arrives too late to matter.",
+      "type": "text",
+      "date": "2025-11-10",
+      "reactions": 21,
+      "comments": 5,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-11-10"
+    },
+    {
+      "id": "p-2025-11-18",
+      "hook": "Booth photo from a Tuesday afternoon at a regional trade show.",
+      "type": "image",
+      "date": "2025-11-18",
+      "reactions": 6,
+      "comments": 1,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-11-18"
+    },
+    {
+      "id": "p-2025-11-19",
+      "hook": "Founders who grew up on the crush pad ask better questions than founders who grew up on decks.",
+      "type": "text",
+      "date": "2025-11-19",
+      "reactions": 23,
+      "comments": 5,
+      "shares": 1,
+      "url": "https://www.example.com/posts/wren-calder/2025-11-19"
+    },
+    {
+      "id": "p-2025-11-27",
+      "hook": "We turned down a distributor that could not tell us their on-hand by SKU. On principle.",
+      "type": "text",
+      "date": "2025-11-27",
+      "reactions": 25,
+      "comments": 5,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2025-11-27"
+    },
+    {
+      "id": "p-2025-12-04",
+      "hook": "Meet the team. Five slides of headshots and hobbies.",
+      "type": "carousel",
+      "date": "2025-12-04",
+      "reactions": 8,
+      "comments": 1,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2025-12-04"
+    },
+    {
+      "id": "p-2025-12-06",
+      "hook": "Three questions I ask every winery operator before we talk product.",
+      "type": "text",
+      "date": "2025-12-06",
+      "reactions": 27,
+      "comments": 6,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2025-12-06"
+    },
+    {
+      "id": "p-2025-12-14",
+      "hook": "The unglamorous work of making a case-goods count match last Tuesday.",
+      "type": "text",
+      "date": "2025-12-14",
+      "reactions": 29,
+      "comments": 6,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2025-12-14"
+    },
+    {
+      "id": "p-2025-12-15",
+      "hook": "If compliance is a spreadsheet, harvest will break it.",
+      "type": "text",
+      "date": "2025-12-15",
+      "reactions": 31,
+      "comments": 7,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2025-12-15"
+    },
+    {
+      "id": "p-2026-01-18",
+      "hook": "A photo of the dock at 6am. This is the actual product.",
+      "type": "text",
+      "date": "2026-01-18",
+      "reactions": 33,
+      "comments": 7,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2026-01-18"
+    },
+    {
+      "id": "p-2026-01-24",
+      "hook": "What changed when we put lot tracking in the same place as the pick list.",
+      "type": "text",
+      "date": "2026-01-24",
+      "reactions": 35,
+      "comments": 7,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2026-01-24"
+    },
+    {
+      "id": "p-2026-01-28",
+      "hook": "7 inventory mistakes independent wineries make before their second harvest.",
+      "type": "carousel",
+      "date": "2026-01-28",
+      "reactions": 251,
+      "comments": 46,
+      "shares": 16,
+      "url": "https://www.example.com/posts/wren-calder/2026-01-28"
+    },
+    {
+      "id": "p-2026-02-02",
+      "hook": "I used to think brand was the hard part. Then we tried to ship 14 SKUs to one account.",
+      "type": "text",
+      "date": "2026-02-02",
+      "reactions": 37,
+      "comments": 8,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2026-02-02"
+    },
+    {
+      "id": "p-2026-02-10",
+      "hook": "A winery in the Finger Lakes taught me more about software than any customer interview.",
+      "type": "image",
+      "date": "2026-02-10",
+      "reactions": 39,
+      "comments": 8,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2026-02-10"
+    },
+    {
+      "id": "p-2026-02-11",
+      "hook": "Hiring a customer success lead. Job post in the comments.",
+      "type": "text",
+      "date": "2026-02-11",
+      "reactions": 7,
+      "comments": 1,
+      "shares": 0,
+      "url": "https://www.example.com/posts/wren-calder/2026-02-11"
+    },
+    {
+      "id": "p-2026-02-19",
+      "hook": "How we explain Ashgrove to a cellar master in under two minutes.",
+      "type": "image",
+      "date": "2026-02-19",
+      "reactions": 42,
+      "comments": 8,
+      "shares": 2,
+      "url": "https://www.example.com/posts/wren-calder/2026-02-19"
+    },
+    {
+      "id": "p-2026-02-27",
+      "hook": "The feature nobody puts in the launch post: the undo on a bad count.",
+      "type": "image",
+      "date": "2026-02-27",
+      "reactions": 44,
+      "comments": 9,
+      "shares": 3,
+      "url": "https://www.example.com/posts/wren-calder/2026-02-27"
+    },
+    {
+      "id": "p-2026-03-07",
+      "hook": "You cannot market your way out of a wrong case count.",
+      "type": "image",
+      "date": "2026-03-07",
+      "reactions": 47,
+      "comments": 9,
+      "shares": 3,
+      "url": "https://www.example.com/posts/wren-calder/2026-03-07"
+    },
+    {
+      "id": "p-2026-03-11",
+      "hook": "We lost a $40k order because the barrel count in the spreadsheet was a week old.",
+      "type": "text",
+      "date": "2026-03-11",
+      "reactions": 312,
+      "comments": 61,
+      "shares": 23,
+      "url": "https://www.example.com/posts/wren-calder/2026-03-11"
+    },
+    {
+      "id": "p-2026-03-16",
+      "hook": "Why we still visit cellars in person, even though the product is the software.",
+      "type": "image",
+      "date": "2026-03-16",
+      "reactions": 50,
+      "comments": 10,
+      "shares": 3,
+      "url": "https://www.example.com/posts/wren-calder/2026-03-16"
+    },
+    {
+      "id": "p-2026-03-24",
+      "hook": "A note to operators who are tired of being told to post more.",
+      "type": "image",
+      "date": "2026-03-24",
+      "reactions": 54,
+      "comments": 11,
+      "shares": 3,
+      "url": "https://www.example.com/posts/wren-calder/2026-03-24"
+    },
+    {
+      "id": "p-2026-04-01",
+      "hook": "The difference between a cellar log and a system of record.",
+      "type": "image",
+      "date": "2026-04-01",
+      "reactions": 58,
+      "comments": 12,
+      "shares": 4,
+      "url": "https://www.example.com/posts/wren-calder/2026-04-01"
+    },
+    {
+      "id": "p-2026-04-09",
+      "hook": "We hired an operator before we hired a marketer. That order was the whole strategy.",
+      "type": "image",
+      "date": "2026-04-09",
+      "reactions": 63,
+      "comments": 13,
+      "shares": 4,
+      "url": "https://www.example.com/posts/wren-calder/2026-04-09"
+    },
+    {
+      "id": "p-2026-04-17",
+      "hook": "What a 200-case winery and a 20,000-case winery actually have in common.",
+      "type": "image",
+      "date": "2026-04-17",
+      "reactions": 68,
+      "comments": 14,
+      "shares": 4,
+      "url": "https://www.example.com/posts/wren-calder/2026-04-17"
+    },
+    {
+      "id": "p-2026-04-22",
+      "hook": "A 12-minute cycle count that used to take our team a full Saturday.",
+      "type": "video",
+      "date": "2026-04-22",
+      "reactions": 198,
+      "comments": 38,
+      "shares": 12,
+      "url": "https://www.example.com/posts/wren-calder/2026-04-22"
+    },
+    {
+      "id": "p-2026-04-26",
+      "hook": "A carousel on receiving: the ten minutes that save the week.",
+      "type": "image",
+      "date": "2026-04-26",
+      "reactions": 74,
+      "comments": 15,
+      "shares": 5,
+      "url": "https://www.example.com/posts/wren-calder/2026-04-26"
+    },
+    {
+      "id": "p-2026-05-04",
+      "hook": "I do not miss the whiteboard in the barrel room. I thought I would.",
+      "type": "image",
+      "date": "2026-05-04",
+      "reactions": 80,
+      "comments": 16,
+      "shares": 5,
+      "url": "https://www.example.com/posts/wren-calder/2026-05-04"
+    },
+    {
+      "id": "p-2026-05-06",
+      "hook": "This is the cellar wall before Ashgrove. I still get angry looking at it.",
+      "type": "image",
+      "date": "2026-05-06",
+      "reactions": 287,
+      "comments": 52,
+      "shares": 19,
+      "url": "https://www.example.com/posts/wren-calder/2026-05-06"
+    },
+    {
+      "id": "p-2026-05-13",
+      "hook": "If your DTC site and your cellar do not share a count, you are selling fiction.",
+      "type": "carousel",
+      "date": "2026-05-13",
+      "reactions": 83,
+      "comments": 17,
+      "shares": 5,
+      "url": "https://www.example.com/posts/wren-calder/2026-05-13"
+    },
+    {
+      "id": "p-2026-05-21",
+      "hook": "A quiet post about the first customer who cancelled, and what we changed.",
+      "type": "carousel",
+      "date": "2026-05-21",
+      "reactions": 86,
+      "comments": 18,
+      "shares": 6,
+      "url": "https://www.example.com/posts/wren-calder/2026-05-21"
+    },
+    {
+      "id": "p-2026-05-29",
+      "hook": "Harvest is a load test you cannot reschedule.",
+      "type": "carousel",
+      "date": "2026-05-29",
+      "reactions": 92,
+      "comments": 18,
+      "shares": 6,
+      "url": "https://www.example.com/posts/wren-calder/2026-05-29"
+    },
+    {
+      "id": "p-2026-06-06",
+      "hook": "The software should be boring. The wine should not be.",
+      "type": "carousel",
+      "date": "2026-06-06",
+      "reactions": 98,
+      "comments": 20,
+      "shares": 7,
+      "url": "https://www.example.com/posts/wren-calder/2026-06-06"
+    },
+    {
+      "id": "p-2026-06-14",
+      "hook": "Why we will not add a social scheduler to Ashgrove.",
+      "type": "carousel",
+      "date": "2026-06-14",
+      "reactions": 110,
+      "comments": 22,
+      "shares": 7,
+      "url": "https://www.example.com/posts/wren-calder/2026-06-14"
+    },
+    {
+      "id": "p-2026-06-17",
+      "hook": "Distributors do not care about your vintage story if you cannot tell them what is on hand by SKU.",
+      "type": "text",
+      "date": "2026-06-17",
+      "reactions": 224,
+      "comments": 41,
+      "shares": 14,
+      "url": "https://www.example.com/posts/wren-calder/2026-06-17"
+    },
+    {
+      "id": "p-2026-06-23",
+      "hook": "A walkthrough of how a sales manager checks stock without calling the cellar.",
+      "type": "carousel",
+      "date": "2026-06-23",
+      "reactions": 124,
+      "comments": 24,
+      "shares": 8,
+      "url": "https://www.example.com/posts/wren-calder/2026-06-23"
+    },
+    {
+      "id": "p-2026-07-01",
+      "hook": "Operators already know what is broken. They need a place to put it.",
+      "type": "video",
+      "date": "2026-07-01",
+      "reactions": 141,
+      "comments": 27,
+      "shares": 9,
+      "url": "https://www.example.com/posts/wren-calder/2026-07-01"
+    },
+    {
+      "id": "p-2026-07-09",
+      "hook": "The first time a customer used Ashgrove during crush, I watched the Slack go silent. That was the win.",
+      "type": "video",
+      "date": "2026-07-09",
+      "reactions": 158,
+      "comments": 31,
+      "shares": 10,
+      "url": "https://www.example.com/posts/wren-calder/2026-07-09"
+    },
+    {
+      "id": "p-2026-07-17",
+      "hook": "A document on how we handle bonded vs tax-paid without making anyone become a lawyer.",
+      "type": "document",
+      "date": "2026-07-17",
+      "reactions": 176,
+      "comments": 34,
+      "shares": 11,
+      "url": "https://www.example.com/posts/wren-calder/2026-07-17"
+    }
+  ]
+}
