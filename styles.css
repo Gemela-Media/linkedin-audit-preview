@@ -17,10 +17,10 @@
   --disp: "Bricolage Grotesque", sans-serif;
   --body: "Public Sans", system-ui, sans-serif;
   --mono: "Spline Sans Mono", ui-monospace, monospace;
-  --s-posts: var(--accent);
-  --s-rx: var(--accent-2);
-  --s-cm: var(--ink);
-  --s-sh: var(--muted);
+  --s-posts: #39c9b4;
+  --s-rx: #e4c56a;
+  --s-cm: #b794f6;
+  --s-sh: #63e4d1;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -224,23 +224,48 @@ section {
 #top { scroll-margin-top: 110px; }
 
 .hero {
-  padding: clamp(36px, 7vh, 72px) 0 clamp(48px, 8vh, 88px);
+  padding: 0 0 clamp(48px, 8vh, 88px);
   border-top: none;
 }
-.hero-glow {
+.cover {
   position: relative;
+  width: 100%;
+  height: clamp(132px, 28vw, 220px);
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(12, 14, 12, 0.1), rgba(12, 14, 12, 0.72)),
+    linear-gradient(128deg, #10241f 0%, #16463d 42%, #0c0e0c 100%);
+}
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+  display: block;
+}
+.cover::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 52%;
+  background: linear-gradient(180deg, transparent, var(--paper));
+  pointer-events: none;
+}
+.who-block {
+  position: relative;
+  z-index: 1;
+  margin-top: calc(-1 * clamp(56px, 11vw, 84px));
 }
 .who {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: clamp(18px, 3vw, 32px);
-  align-items: center;
-  margin-top: 22px;
+  align-items: end;
 }
 .photo-wrap {
   position: relative;
-  width: clamp(88px, 18vw, 128px);
-  height: clamp(88px, 18vw, 128px);
+  width: clamp(112px, 22vw, 160px);
+  height: clamp(112px, 22vw, 160px);
   flex-shrink: 0;
 }
 .photo-fallback {
@@ -254,8 +279,10 @@ section {
   justify-content: center;
   font-family: var(--disp);
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 2.4rem;
   letter-spacing: -0.03em;
+  border: 4px solid var(--paper);
+  box-shadow: 0 0 0 1px var(--panel-line);
 }
 .photo-wrap img {
   position: relative;
@@ -264,8 +291,9 @@ section {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid var(--panel-line);
+  border: 4px solid var(--paper);
   background: var(--panel);
+  box-shadow: 0 0 0 1px var(--panel-line);
 }
 .li-mark {
   position: absolute;
@@ -435,9 +463,26 @@ section {
 .toggle[data-key="comments"] .dot { background: var(--s-cm); }
 .toggle[data-key="shares"] .dot { background: var(--s-sh); }
 .toggle[aria-pressed="true"] {
-  border-color: var(--accent);
   color: var(--ink);
-  background: rgba(57, 201, 180, 0.08);
+}
+.toggle[data-key="posts"][aria-pressed="true"] {
+  border-color: var(--s-posts);
+  background: color-mix(in srgb, var(--s-posts) 14%, transparent);
+}
+.toggle[data-key="reactions"][aria-pressed="true"] {
+  border-color: var(--s-rx);
+  background: color-mix(in srgb, var(--s-rx) 14%, transparent);
+}
+.toggle[data-key="comments"][aria-pressed="true"] {
+  border-color: var(--s-cm);
+  background: color-mix(in srgb, var(--s-cm) 14%, transparent);
+}
+.toggle[data-key="shares"][aria-pressed="true"] {
+  border-color: var(--s-sh);
+  background: color-mix(in srgb, var(--s-sh) 14%, transparent);
+}
+.toggle[aria-pressed="false"] {
+  opacity: 0.58;
 }
 .toggle.all[aria-pressed="true"] {
   background: var(--accent);
@@ -490,6 +535,14 @@ section {
 }
 .tooltip div { display: flex; justify-content: space-between; gap: 16px; }
 .tooltip .off { opacity: 0.4; }
+.tooltip .swatch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
 
 .mix { display: grid; gap: 12px; }
 .mix-row { display: grid; grid-template-columns: 88px 1fr 36px; gap: 10px; align-items: center; }
@@ -688,7 +741,9 @@ footer .c {
   .statgrid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 720px) {
-  .who { grid-template-columns: 1fr; justify-items: start; }
+  .who { grid-template-columns: 1fr; justify-items: start; align-items: start; }
+  .cover { height: 148px; }
+  .who-block { margin-top: -64px; }
   .post { grid-template-columns: 1fr; }
   .metrics { justify-content: start; }
   .metrics span { align-items: flex-start; }
