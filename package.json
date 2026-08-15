@@ -1,0 +1,9 @@
+{
+  "name": "linkedin-audit",
+  "private": true,
+  "description": "Per-prospect LinkedIn 12-month audit microsite (Gemela). Dummy data in round 1.",
+  "scripts": {
+    "start": "npx --yes serve . -p 4173",
+    "data": "node scripts/build-sample.mjs"
+  }
+}
