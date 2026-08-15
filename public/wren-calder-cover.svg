@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" role="img" aria-label="Invented dark-forest and teal cover banner for Wren Calder">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10241f"/>
+      <stop offset="55%" stop-color="#16463d"/>
+      <stop offset="100%" stop-color="#0c0e0c"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39c9b4" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#16463d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="url(#sky)"/>
+  <rect width="1584" height="396" fill="url(#haze)"/>
+  <ellipse cx="220" cy="420" rx="380" ry="160" fill="#0a1613" opacity="0.7"/>
+  <ellipse cx="1360" cy="40" rx="420" ry="180" fill="#1a5c50" opacity="0.28"/>
+  <path d="M0 270 C180 210 320 300 480 250 C640 200 780 280 980 230 C1180 180 1380 250 1584 200 L1584 396 L0 396 Z" fill="#0d1c18" opacity="0.85"/>
+  <path d="M0 310 C240 250 420 330 640 280 C860 230 1100 310 1584 250 L1584 396 L0 396 Z" fill="#081411"/>
+  <circle cx="1280" cy="92" r="36" fill="#39c9b4" opacity="0.22"/>
+  <text x="64" y="86" fill="#d8efe9" font-family="Georgia, serif" font-size="42" font-style="italic">Ashgrove</text>
+  <text x="64" y="124" fill="#8fb8ad" font-family="system-ui, sans-serif" font-size="18" letter-spacing="0.18em">WREN CALDER · SAMPLE COVER</text>
+</svg>
