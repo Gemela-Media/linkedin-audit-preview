@@ -431,11 +431,29 @@ function renderChart() {
   hideChartTip = hide;
 }
 
+async function loadData() {
+  const embedded = document.getElementById("audit-data");
+  if (embedded) return JSON.parse(embedded.textContent);
+  const urls = [
+    "./data/sample.json",
+    "https://cdn.jsdelivr.net/gh/Gemela-Media/linkedin-audit-preview@main/data/sample.json",
+  ];
+  let lastErr;
+  for (const url of urls) {
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      if (res.ok) return res.json();
+      lastErr = new Error(`Could not load sample data (${res.status})`);
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr || new Error("Could not load sample data");
+}
+
 async function main() {
   try {
-    const res = await fetch("./data/sample.json", { cache: "no-store" });
-    if (!res.ok) throw new Error("Could not load sample data");
-    state.data = await res.json();
+    state.data = await loadData();
     render(state.data);
   } catch (err) {
     $("#app").innerHTML = `<p class="err wrap">Could not load the sample look. Serve the folder over HTTP (see the README) rather than opening the file directly.</p>`;
