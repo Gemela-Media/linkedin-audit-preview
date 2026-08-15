@@ -1,8 +1,8 @@
 const SERIES = [
   { key: "posts", label: "Posts", field: "postCount", color: "#39c9b4" },
-  { key: "reactions", label: "Median reactions", field: "medianReactions", color: "#63e4d1" },
-  { key: "comments", label: "Median comments", field: "medianComments", color: "#f0efe6" },
-  { key: "shares", label: "Median shares", field: "medianShares", color: "#a6a8a0" },
+  { key: "reactions", label: "Median reactions", field: "medianReactions", color: "#e4c56a" },
+  { key: "comments", label: "Median comments", field: "medianComments", color: "#b794f6" },
+  { key: "shares", label: "Median shares", field: "medianShares", color: "#63e4d1" },
 ];
 
 const FORMAT_ORDER = ["text", "image", "carousel", "video", "document", "article"];
@@ -39,22 +39,46 @@ function monthLabel(iso) {
   );
 }
 
+/** HarvestAPI sends `photo` as a URI string and `profilePicture` / `coverPicture` as `{ url, sizes[] }`. */
+function mediaUrl(value) {
+  if (!value) return "";
+  if (typeof value === "string") return value;
+  if (value.url) return value.url;
+  const first = value.sizes && value.sizes[0];
+  return (first && first.url) || "";
+}
+
+function prospectPhoto(p) {
+  return mediaUrl(p.photo) || mediaUrl(p.profilePicture) || "";
+}
+
+function prospectCover(p) {
+  return mediaUrl(p.coverPicture) || mediaUrl(p.banner) || "";
+}
+
 function render(data) {
   const p = data.prospect;
   const g = data.glance;
   document.title = `Sample LinkedIn look · ${p.name} · Gemela Media`;
 
+  const photoUrl = prospectPhoto(p);
+  const coverUrl = prospectCover(p);
+  const initials = `${esc(p.firstName).slice(0, 1)}${esc(p.name.split(" ").pop()).slice(0, 1)}`;
+
   $("#app").innerHTML = `
     <header class="hero" id="top">
-      <div class="wrap hero-glow">
-        <span class="lab">Sample 12-month LinkedIn look</span>
+      <div class="cover${coverUrl ? "" : " fallback"}">
+        ${coverUrl ? `<img src="${esc(coverUrl)}" alt="" width="1600" height="900">` : ""}
+      </div>
+      <div class="wrap who-block">
         <div class="who">
           <div class="photo-wrap">
-            <div class="photo-fallback" aria-hidden="true">${esc(p.firstName).slice(0, 1)}${esc(p.name.split(" ").pop()).slice(0, 1)}</div>
-            <img src="${esc(p.photo)}" alt="Headshot of ${esc(p.name)}, a fictional sample prospect" width="800" height="800">
+            <div class="photo-fallback" aria-hidden="true">${initials}</div>
+            ${photoUrl ? `<img src="${esc(photoUrl)}" alt="Headshot of ${esc(p.name)}, a fictional sample prospect" width="800" height="800">` : ""}
             <span class="li-mark" title="LinkedIn mock" aria-hidden="true">in</span>
           </div>
           <div>
+            <span class="lab">Sample 12-month LinkedIn look</span>
             <h1>${esc(p.name)}</h1>
             <p class="role">${esc(p.role)}, ${esc(p.company)}</p>
             <p class="headline">${esc(p.headline)}</p>
@@ -175,10 +199,24 @@ function render(data) {
   renderToggles();
   renderMix(g.formatMix, g.totalPosts);
   renderChart();
+  const trySvgThenHide = (img, onFail) => {
+    img.addEventListener("error", () => {
+      if (/\.jpe?g(\?|#|$)/i.test(img.getAttribute("src") || "") && !img.dataset.triedSvg) {
+        img.dataset.triedSvg = "1";
+        img.src = img.getAttribute("src").replace(/\.jpe?g/i, ".svg");
+        return;
+      }
+      onFail();
+    });
+  };
   const photo = $(".photo-wrap img");
-  if (photo) {
-    photo.addEventListener("error", () => {
-      photo.style.display = "none";
+  if (photo) trySvgThenHide(photo, () => { photo.style.display = "none"; });
+  const cover = $(".cover img");
+  if (cover) {
+    trySvgThenHide(cover, () => {
+      cover.remove();
+      const wrap = $(".cover");
+      if (wrap) wrap.classList.add("fallback");
     });
   }
 }
@@ -347,7 +385,10 @@ function renderChart() {
         d += `${drawing ? "L" : "M"}${xAt(i).toFixed(1)},${y.toFixed(1)} `;
         drawing = true;
       });
-      return `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>`;
+      return `<g>
+        <path d="${d}" fill="none" stroke="#0c0e0c" stroke-width="5.4" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="${d}" fill="none" stroke="${s.color}" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+      </g>`;
     })
     .join("");
 
@@ -391,7 +432,7 @@ function renderChart() {
       const off = !state.on[s.key];
       const val = w[s.field];
       const label = val == null ? "none" : fmt.format(val);
-      return `<div class="${off ? "off" : ""}"><span>${s.label}</span><span>${label}</span></div>`;
+      return `<div class="${off ? "off" : ""}"><span><i class="swatch" style="background:${s.color}"></i>${s.label}</span><span>${label}</span></div>`;
     }).join("");
     tip.innerHTML = `<b>${fmtDate.format(new Date(w.start + "T12:00:00Z"))}</b>${rows}`;
     tip.hidden = false;
